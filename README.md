@@ -1,6 +1,7 @@
 # PWeb_Tugas1_5025211135
 
 Nama : Gabrielle Immanuel Osvaldo Kurniawan
+
 NRP  : 5025211135
 
 # Tugas HTML
@@ -85,17 +86,24 @@ Ketika dibedah struktur diatas dibagi menjadi 2 bagian yaitu head dan body dalam
 
 Bagian body sendiri saya bagi menjadi banyak bagian (section) sebagai berikut :
 
+* Section 1 (Head) adalah tempat highlight dari CV saya yaitu nama saya sendiri
 ```
 <header>
       <center><h1>Gabrielle Immanuel Osvaldo Kurniawan</h1></center>
-    </header>
-    <main>
+</header>
+```
+* Section 2 berisi foto dan profil singkat saya
+```
+<main>
     <center><section>
         <img src="images\Foto.png" width="180" height="240" style="border: 2px solid whitesmoke;">
         <h2>Tentang Saya</h2>
-        <p>Saya yang kerap dipanggil dengan panggilan Valdo saat ini sedang menempuh studi saya di ITS.<br>Saat ini saya belajar pemrogramman web bersama dengan teman teman di semester 4.<br>Saya memilih jurusan informatika karena ingin belajar banyak mengenai teknologi AI dan IoT.<br>Harapan saya studi saya dapat berjalan dengan lancar dan mendapat hasil yang memuaskan.</p>
+        <p>Saya yang kerap dipanggil dengan panggilan Valdo saat ini sedang menempuh studi saya di ITS.<br>Saat ini saya belajar pemrogramman web bersama dengan teman  teman di semester 4.<br>Saya memilih jurusan informatika karena ingin belajar banyak mengenai teknologi AI dan IoT.<br>Harapan saya studi saya dapat berjalan dengan lancar dan mendapat hasil yang memuaskan.</p>
     </section>
-    <section>
+```
+* Section 3 berisi tabel biodata saya yang lebih lengkap
+```
+<section>
         <h2>Biodata Diri</h2>
         <table border="1" cellpadding="10">
         <tr>
@@ -120,7 +128,10 @@ Bagian body sendiri saya bagi menjadi banyak bagian (section) sebagai berikut :
         </tr>
         </table>
       </section>
-      <section>
+```
+* Section 4 dan 5 berisi latar belakang pendidikan diikuti dengan gambar
+```
+<section>
         <h2>Pendidikan</h2>
         <p>
             <h3>SMAK St. Louis 1 Surabaya</h3>
@@ -143,8 +154,3 @@ Bagian body sendiri saya bagi menjadi banyak bagian (section) sebagai berikut :
     </center>
     </main>
 ```
-
-### Section 1 (Head) adalah tempat highlight dari CV saya yaitu nama saya sendiri
-### Section 2 berisi foto dan profil singkat saya
-### Section 3 berisi tabel biodata saya yang lebih lengkap
-### Section 4 dan 5 berisi latar belakang pendidikan diikuti dengan gambar
